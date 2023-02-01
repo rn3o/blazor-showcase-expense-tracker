@@ -6,6 +6,7 @@
 	 <ImplicitUsings>enable</ImplicitUsings>
    </PropertyGroup>
 
+   <PropertyGroup Condition=" '$(RunConfiguration)' == 'ExpenseTracker' " />
   <ItemGroup>
     <Folder Include="Services\" />
   </ItemGroup>

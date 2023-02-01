@@ -35,7 +35,8 @@
 
 .e-btn.e-info.e-add:active,
 .e-btn.e-info.e-save:active, .e-btn.e-ok.e-flat:active {
-    background-image: linear-gradient(-180deg, #6890FB 0%, #4273F9 100%);
+    /*    background-image: linear-gradient(-180deg, #6890FB 0%, #4273F9 100%);*/
+    background: #29358a !important;
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.2), inset 1px 1px 4px 4px rgba(66, 115, 249, 0.85);
     border-radius: 2px;
     font-family: Roboto-Bold;
@@ -875,7 +876,7 @@ html body > .content {
 }
 
 .samplenameheader {
-    background-image: url(./images/exp-track.png);
+/*    background-image: url(./images/exp-track.png);*/
     background-repeat: no-repeat;
     background-position-x: center;
     width: 50%;
@@ -885,17 +886,15 @@ html body > .content {
 }
 
 .samplename {
-    background: url("./images/title.svg") no-repeat center;
+    /*    background: url("./images/title.svg") no-repeat center;*/
     height: 100%;
 }
 
     .samplename h1 {
-        color: #00B7F9;
+        color: #f5c1bc;
         font-size: 17px;
         font-family: "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif", "-apple-system", "BlinkMacSystemFont";
         font-weight: 600;
-        position: absolute;
-        right: 8px;
     }
 
 .current-balance-info {
@@ -1230,17 +1229,15 @@ span.e-label {
     .nav-list div.nav-item {
         line-height: 30px;
         list-style-type: none;
-        margin: 10px 20px;
-        text-align: center;
+        text-align: left;
     }
 
         .nav-list div.nav-item a {
-            color: #545454;
+            padding: 8px 16px;
+            color: #1b264f;
             display: block;
             text-decoration: none;
-            font-size: 13px;
             font-weight: normal;
-            height: 32px;
             line-height: 32px;
         }
 
@@ -1260,18 +1257,12 @@ span.e-label {
     }
 
 .nav-list div a:hover {
-    background: #EFF4FF;
-    border-radius: 26px;
+    background: #f9f9fa;
+    color: #2152a3;
 }
-
-
 .nav-list div a.active {
-    background: linear-gradient(-180deg, #6890FB 0%, #497DF2 100%);
-    border-radius: 26px;
-    color: #FFFFFF;
-    font-size: 13px;
-    letter-spacing: 0.78px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
+    background: #fee4e1;
+    font-size: 14px;
 }
 
 .e-gridcontent .e-content {
@@ -1658,7 +1649,7 @@ span.e-label {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-#tolincome {
+/*#tolincome {
     color: #4d80f3;
 }
 
@@ -1672,6 +1663,15 @@ span.e-label {
 
 #toltransaction {
     color: #34d3eb;
+}*/
+
+#tolincome,
+#tolexpense,
+#tolbalance,
+#toltransaction {
+/*    color: #2152a3;*/
+    color: #000;
+    font-weight: 600;
 }
 
 .e-grid.e-default {
@@ -1688,8 +1688,8 @@ span.e-label {
 
 .samplename-header {
     height: 59px;
-    background: #f7f7f7;
-    padding-left: 4px;
+    background: #1b264f;
+    padding-left: 16px;
 }
 
 .balance-section {
@@ -1726,7 +1726,7 @@ span.e-label {
     padding: 19px 0;
 }
 
-div.page-list::after,
+/*div.page-list::after,*/
 div.info::after {
     content: '';
     background-image: linear-gradient(-90deg, #FFFFFF 3%, #B8CBCC 51%, #FFFFFF 95%);
@@ -1861,9 +1861,9 @@ div.info::after {
     border: none;
     border-radius: 2px;
     font-size: 13px;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #FFFFFF;
-    background-image: linear-gradient(-180deg, #6890FB 0%, #4273F9 100%);
+    background: #1B264F;
+    /*    background-image: linear-gradient(-180deg, #6890FB 0%, #4273F9 100%);*/
     box-shadow: none;
 }
 
@@ -1871,7 +1871,8 @@ div.info::after {
     #add-btn:hover,
     #filter-btn:hover {
         border: none;
-        background-image: linear-gradient(-180deg, #6890FB 0%, #4273F9 100%);
+        background: #2152A3;
+        /* background-image: linear-gradient(-180deg, #6890FB 0%, #4273F9 100%);*/
         box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.2);
         border-radius: 2px;
         font-size: 13px;
@@ -1935,7 +1936,6 @@ input[type="search"].search::-moz-placeholder {
     color: #485058;
     font-size: 16px;
     padding: 0 0 12px 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .list-heading {
@@ -1943,7 +1943,6 @@ input[type="search"].search::-moz-placeholder {
     color: #485058;
     font-size: 16px;
     padding-bottom: 12px;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .about-description {
@@ -1952,14 +1951,12 @@ input[type="search"].search::-moz-placeholder {
     font-size: 13px;
     line-height: 24px;
     padding-bottom: 24px;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .about-component {
     color: #485058;
     font-size: 14px;
     padding-bottom: 24px;
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
     .about-component li {
@@ -1967,7 +1964,7 @@ input[type="search"].search::-moz-placeholder {
     }
 
 .control-item {
-    color: #4a90e2;
+    color: #1B264F;
     display: flex;
     line-height: 30px;
     display: inline-block;
@@ -2069,6 +2066,7 @@ input[type="search"].search::-moz-placeholder {
 
 .control-name {
     font-size: 14px;
+    color: #1B264F;
 }
 
 .about-component {
@@ -2129,7 +2127,6 @@ input[type="search"].search::-moz-placeholder {
 
     .page-list {
         height: 250px;
-        padding: 47px 0;
     }
 
     .balance-section {

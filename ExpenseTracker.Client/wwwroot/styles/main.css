@@ -1,5 +1,36 @@
-﻿.e-app-mainpage {
-   background: linear-gradient(-141deg, #FBFAFF 14%, #FBFAFF 100%);
+﻿/* override syncfusion with umbraco style start here */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body, p, a, button, text, input, table, label, h1, h2, h3, h4, h5, .e-label, .e-css {
+    font-family: "Lato", "sans-serif", "Segoe UI", "-apple-system", "BlinkMacSystemFont" !important;
+}
+
+#expense-grid-wrapper,
+.e-grid.e-default,
+.pane,
+.card,
+.chart-padding {
+    border-radius: 3px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+}
+.card:focus {
+  outline-color: #6ab4f0;
+  outline: 2px;
+}
+.e-grid tr.e-row,
+.e-row {
+    height: 53px;
+}
+
+
+/*umbraco style end*/
+
+
+
+.e-app-mainpage {
+    background: #F6F4F4 !important;
+    /*    background: linear-gradient(-141deg, #FBFAFF 14%, #FBFAFF 100%);*/
 }
 
 #title {

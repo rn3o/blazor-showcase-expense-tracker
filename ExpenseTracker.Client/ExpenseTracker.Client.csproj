@@ -9,6 +9,7 @@
     <UserSecretsId>cb0171fc-fc45-4dcf-b056-a4c027094415</UserSecretsId>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ExpenseTracker' " />
   <ItemGroup>
 	<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.10" />
 	<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.10" PrivateAssets="all" />

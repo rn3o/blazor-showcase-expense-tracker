@@ -1013,7 +1013,7 @@ html body > .content {
 }
 
 .card-text {
-    font-family: verdana, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 13px;
     color: #6f6f6f !important;
     display: block;
@@ -1071,7 +1071,7 @@ html body > .content {
 
 .card-value {
     margin-top: 10px;
-    font-family: verdana, "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif";
+    font-family: Lato, "Roboto", "Segoe UI", "GeezaPro", "DejaVu Serif", "sans-serif";
     font-size: 24px;
     font-weight: 400;
     text-align: center;
@@ -2225,7 +2225,7 @@ input[type="search"].search::-moz-placeholder {
 
 #current-balance {
     font-size: 15px;
-    font-family: verdana;
+    font-family: Lato;
     letter-spacing: normal;
 }
 
